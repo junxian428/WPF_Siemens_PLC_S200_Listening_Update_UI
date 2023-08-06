@@ -1,0 +1,358 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Howell.DotNet.Extensions/1.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/Howell.DotNet.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Howell.DotNet.Extensions.dll": {}
+        }
+      },
+      "Howell.MQTTnet/1.3.4": {
+        "type": "package",
+        "dependencies": {
+          "Howell.DotNet.Extensions": "1.4.3",
+          "MQTTnet": "2.8.5",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Howell.MQTTnet.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Howell.MQTTnet.dll": {}
+        }
+      },
+      "MQTTnet/4.2.1.781": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {}
+        }
+      },
+      "MQTTnet.AspNetCore/4.2.1.781": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.2.1.781"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "MQTTnet.Extensions.ManagedClient/4.2.1.781": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.2.1.781"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "S7netplus/0.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/S7.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/S7.Net.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Howell.DotNet.Extensions/1.4.3": {
+      "sha512": "fOVbq5pJQawodtHoqn20YcX0QfmceEPCJpTqYWZ31WktCKQS2X4L883yobh2gVF5RPmMlFBlv8OYVZXiPEaQbg==",
+      "type": "package",
+      "path": "howell.dotnet.extensions/1.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "howell.dotnet.extensions.1.4.3.nupkg.sha512",
+        "howell.dotnet.extensions.nuspec",
+        "lib/net45/Howell.DotNet.Extensions.dll",
+        "lib/netcoreapp2.1/Howell.DotNet.Extensions.dll",
+        "lib/netcoreapp2.1/Howell.DotNet.Extensions.xml",
+        "lib/netstandard2.0/Howell.DotNet.Extensions.dll"
+      ]
+    },
+    "Howell.MQTTnet/1.3.4": {
+      "sha512": "fHcUK59L8fv8fj8PXvqm/uGU1DWxf6vwB59OsYmRS/sZFG8Kx1U48oHp8a7J2cu0EhjdDs/4Hl5NT1zTM5/kCA==",
+      "type": "package",
+      "path": "howell.mqttnet/1.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "howell.mqttnet.1.3.4.nupkg.sha512",
+        "howell.mqttnet.nuspec",
+        "lib/net461/Howell.MQTTnet.dll",
+        "lib/netcoreapp3.1/Howell.MQTTnet.dll",
+        "lib/netstandard2.0/Howell.MQTTnet.dll"
+      ]
+    },
+    "MQTTnet/4.2.1.781": {
+      "sha512": "oKPAoW1Ynukm6ws6P3NmmMlNb3xIlPVf/89WVCkoWOJdz1dYtAdGYRdqe876pVsPru4j0uyU/hKf7iL3NU1r6w==",
+      "type": "package",
+      "path": "mqttnet/4.2.1.781",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MQTTnet.dll",
+        "lib/net452/MQTTnet.xml",
+        "lib/net461/MQTTnet.dll",
+        "lib/net461/MQTTnet.xml",
+        "lib/net48/MQTTnet.dll",
+        "lib/net48/MQTTnet.xml",
+        "lib/net5.0/MQTTnet.dll",
+        "lib/net5.0/MQTTnet.xml",
+        "lib/net6.0/MQTTnet.dll",
+        "lib/net6.0/MQTTnet.xml",
+        "lib/net7.0/MQTTnet.dll",
+        "lib/net7.0/MQTTnet.xml",
+        "lib/netcoreapp3.1/MQTTnet.dll",
+        "lib/netcoreapp3.1/MQTTnet.xml",
+        "lib/netstandard1.3/MQTTnet.dll",
+        "lib/netstandard1.3/MQTTnet.xml",
+        "lib/netstandard2.0/MQTTnet.dll",
+        "lib/netstandard2.0/MQTTnet.xml",
+        "lib/netstandard2.1/MQTTnet.dll",
+        "lib/netstandard2.1/MQTTnet.xml",
+        "lib/uap10.0.10240/MQTTnet.dll",
+        "lib/uap10.0.10240/MQTTnet.pri",
+        "lib/uap10.0.10240/MQTTnet.xml",
+        "mqttnet.4.2.1.781.nupkg.sha512",
+        "mqttnet.nuspec",
+        "nuget.png"
+      ]
+    },
+    "MQTTnet.AspNetCore/4.2.1.781": {
+      "sha512": "lYier2E8s2TQn6PTCT8HnHih2RmTj2UlsqdPmrLJPayfmOSB7eaWLJARtwGpHHF2HEgsNtt99CkNdLwDrKu7AQ==",
+      "type": "package",
+      "path": "mqttnet.aspnetcore/4.2.1.781",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/MQTTnet.AspNetCore.dll",
+        "lib/net5.0/MQTTnet.AspNetCore.xml",
+        "lib/net6.0/MQTTnet.AspNetCore.dll",
+        "lib/net6.0/MQTTnet.AspNetCore.xml",
+        "lib/net7.0/MQTTnet.AspNetCore.dll",
+        "lib/net7.0/MQTTnet.AspNetCore.xml",
+        "lib/netcoreapp2.1/MQTTnet.AspNetCore.dll",
+        "lib/netcoreapp2.1/MQTTnet.AspNetCore.xml",
+        "lib/netcoreapp3.1/MQTTnet.AspNetCore.dll",
+        "lib/netcoreapp3.1/MQTTnet.AspNetCore.xml",
+        "lib/netstandard2.0/MQTTnet.AspNetCore.dll",
+        "lib/netstandard2.0/MQTTnet.AspNetCore.xml",
+        "mqttnet.aspnetcore.4.2.1.781.nupkg.sha512",
+        "mqttnet.aspnetcore.nuspec",
+        "nuget.png"
+      ]
+    },
+    "MQTTnet.Extensions.ManagedClient/4.2.1.781": {
+      "sha512": "JkW4/p9ZgfV/w33AO1Ug5liAnQCdcXoytKx4BVgU5LznaasMDv24skMKkGyOf+/XO24OdFbbpx8kr9u13HJ/7w==",
+      "type": "package",
+      "path": "mqttnet.extensions.managedclient/4.2.1.781",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/net452/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/net461/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/net461/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/net48/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/net48/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/net5.0/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/net5.0/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/net6.0/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/net7.0/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/net7.0/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/netcoreapp3.1/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/netcoreapp3.1/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/netstandard1.3/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/netstandard1.3/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/netstandard2.0/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/netstandard2.0/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/netstandard2.1/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/netstandard2.1/MQTTnet.Extensions.ManagedClient.xml",
+        "lib/uap10.0.10240/MQTTnet.Extensions.ManagedClient.dll",
+        "lib/uap10.0.10240/MQTTnet.Extensions.ManagedClient.pri",
+        "lib/uap10.0.10240/MQTTnet.Extensions.ManagedClient.xml",
+        "mqttnet.extensions.managedclient.4.2.1.781.nupkg.sha512",
+        "mqttnet.extensions.managedclient.nuspec",
+        "nuget.png"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "S7netplus/0.20.0": {
+      "sha512": "XAubZ076bhWHQZlnBkzwQO4WxqF5ofwhrkDxfBhGbeD1JC1jBDn3EbWIqMLW6+G0RsxzxirSjLERCQZPfjwGdw==",
+      "type": "package",
+      "path": "s7netplus/0.20.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/S7.Net.dll",
+        "lib/net452/S7.Net.xml",
+        "lib/net462/S7.Net.dll",
+        "lib/net462/S7.Net.xml",
+        "lib/net5.0/S7.Net.dll",
+        "lib/net5.0/S7.Net.xml",
+        "lib/net6.0/S7.Net.dll",
+        "lib/net6.0/S7.Net.xml",
+        "lib/net7.0/S7.Net.dll",
+        "lib/net7.0/S7.Net.xml",
+        "lib/netstandard1.3/S7.Net.dll",
+        "lib/netstandard1.3/S7.Net.xml",
+        "lib/netstandard2.0/S7.Net.dll",
+        "lib/netstandard2.0/S7.Net.xml",
+        "s7netplus.0.20.0.nupkg.sha512",
+        "s7netplus.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Howell.MQTTnet >= 1.3.4",
+      "MQTTnet >= 4.2.1.781",
+      "MQTTnet.AspNetCore >= 4.2.1.781",
+      "MQTTnet.Extensions.ManagedClient >= 4.2.1.781",
+      "S7netplus >= 0.20.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\junxian428\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\junxian428\\source\\repos\\MQTTClient\\MQTTClient\\MQTTClient.csproj",
+      "projectName": "MQTTClient",
+      "projectPath": "C:\\Users\\junxian428\\source\\repos\\MQTTClient\\MQTTClient\\MQTTClient.csproj",
+      "packagesPath": "C:\\Users\\junxian428\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\junxian428\\source\\repos\\MQTTClient\\MQTTClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\junxian428\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Howell.MQTTnet": {
+            "target": "Package",
+            "version": "[1.3.4, )"
+          },
+          "MQTTnet": {
+            "target": "Package",
+            "version": "[4.2.1.781, )"
+          },
+          "MQTTnet.AspNetCore": {
+            "target": "Package",
+            "version": "[4.2.1.781, )"
+          },
+          "MQTTnet.Extensions.ManagedClient": {
+            "target": "Package",
+            "version": "[4.2.1.781, )"
+          },
+          "S7netplus": {
+            "target": "Package",
+            "version": "[0.20.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

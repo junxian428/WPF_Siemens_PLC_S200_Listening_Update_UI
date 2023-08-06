@@ -1,0 +1,149 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MQTTClient/1.0.0": {
+        "dependencies": {
+          "Howell.MQTTnet": "1.3.4",
+          "MQTTnet": "4.2.1.781",
+          "MQTTnet.AspNetCore": "4.2.1.781",
+          "MQTTnet.Extensions.ManagedClient": "4.2.1.781",
+          "S7netplus": "0.20.0"
+        },
+        "runtime": {
+          "MQTTClient.dll": {}
+        }
+      },
+      "Howell.DotNet.Extensions/1.4.3": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Howell.DotNet.Extensions.dll": {
+            "assemblyVersion": "1.4.3.0",
+            "fileVersion": "1.4.3.0"
+          }
+        }
+      },
+      "Howell.MQTTnet/1.3.4": {
+        "dependencies": {
+          "Howell.DotNet.Extensions": "1.4.3",
+          "MQTTnet": "4.2.1.781",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Howell.MQTTnet.dll": {
+            "assemblyVersion": "1.3.4.0",
+            "fileVersion": "1.3.4.0"
+          }
+        }
+      },
+      "MQTTnet/4.2.1.781": {
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "assemblyVersion": "4.2.1.781",
+            "fileVersion": "4.2.1.781"
+          }
+        }
+      },
+      "MQTTnet.AspNetCore/4.2.1.781": {
+        "dependencies": {
+          "MQTTnet": "4.2.1.781"
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.AspNetCore.dll": {
+            "assemblyVersion": "4.2.1.781",
+            "fileVersion": "4.2.1.781"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.2.1.781": {
+        "dependencies": {
+          "MQTTnet": "4.2.1.781"
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "assemblyVersion": "4.2.1.781",
+            "fileVersion": "4.2.1.781"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "S7netplus/0.20.0": {
+        "runtime": {
+          "lib/net6.0/S7.Net.dll": {
+            "assemblyVersion": "0.20.0.0",
+            "fileVersion": "0.20.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MQTTClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Howell.DotNet.Extensions/1.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fOVbq5pJQawodtHoqn20YcX0QfmceEPCJpTqYWZ31WktCKQS2X4L883yobh2gVF5RPmMlFBlv8OYVZXiPEaQbg==",
+      "path": "howell.dotnet.extensions/1.4.3",
+      "hashPath": "howell.dotnet.extensions.1.4.3.nupkg.sha512"
+    },
+    "Howell.MQTTnet/1.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fHcUK59L8fv8fj8PXvqm/uGU1DWxf6vwB59OsYmRS/sZFG8Kx1U48oHp8a7J2cu0EhjdDs/4Hl5NT1zTM5/kCA==",
+      "path": "howell.mqttnet/1.3.4",
+      "hashPath": "howell.mqttnet.1.3.4.nupkg.sha512"
+    },
+    "MQTTnet/4.2.1.781": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oKPAoW1Ynukm6ws6P3NmmMlNb3xIlPVf/89WVCkoWOJdz1dYtAdGYRdqe876pVsPru4j0uyU/hKf7iL3NU1r6w==",
+      "path": "mqttnet/4.2.1.781",
+      "hashPath": "mqttnet.4.2.1.781.nupkg.sha512"
+    },
+    "MQTTnet.AspNetCore/4.2.1.781": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lYier2E8s2TQn6PTCT8HnHih2RmTj2UlsqdPmrLJPayfmOSB7eaWLJARtwGpHHF2HEgsNtt99CkNdLwDrKu7AQ==",
+      "path": "mqttnet.aspnetcore/4.2.1.781",
+      "hashPath": "mqttnet.aspnetcore.4.2.1.781.nupkg.sha512"
+    },
+    "MQTTnet.Extensions.ManagedClient/4.2.1.781": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JkW4/p9ZgfV/w33AO1Ug5liAnQCdcXoytKx4BVgU5LznaasMDv24skMKkGyOf+/XO24OdFbbpx8kr9u13HJ/7w==",
+      "path": "mqttnet.extensions.managedclient/4.2.1.781",
+      "hashPath": "mqttnet.extensions.managedclient.4.2.1.781.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "S7netplus/0.20.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XAubZ076bhWHQZlnBkzwQO4WxqF5ofwhrkDxfBhGbeD1JC1jBDn3EbWIqMLW6+G0RsxzxirSjLERCQZPfjwGdw==",
+      "path": "s7netplus/0.20.0",
+      "hashPath": "s7netplus.0.20.0.nupkg.sha512"
+    }
+  }
+}

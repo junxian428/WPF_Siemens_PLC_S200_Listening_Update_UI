@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "zUCMNoi/5lGBJti8LXNquGYg04PkMtSZXTE5uBZ5hpUECziSy1/t7d184asOtlTXkLXNhvfmrnFsBEFCtDTSaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\junxian428\\source\\repos\\MQTTClient\\MQTTClient\\MQTTClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\junxian428\\.nuget\\packages\\howell.dotnet.extensions\\1.4.3\\howell.dotnet.extensions.1.4.3.nupkg.sha512",
+    "C:\\Users\\junxian428\\.nuget\\packages\\howell.mqttnet\\1.3.4\\howell.mqttnet.1.3.4.nupkg.sha512",
+    "C:\\Users\\junxian428\\.nuget\\packages\\mqttnet\\4.2.1.781\\mqttnet.4.2.1.781.nupkg.sha512",
+    "C:\\Users\\junxian428\\.nuget\\packages\\mqttnet.aspnetcore\\4.2.1.781\\mqttnet.aspnetcore.4.2.1.781.nupkg.sha512",
+    "C:\\Users\\junxian428\\.nuget\\packages\\mqttnet.extensions.managedclient\\4.2.1.781\\mqttnet.extensions.managedclient.4.2.1.781.nupkg.sha512",
+    "C:\\Users\\junxian428\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\junxian428\\.nuget\\packages\\s7netplus\\0.20.0\\s7netplus.0.20.0.nupkg.sha512"
+  ],
+  "logs": []
+}
